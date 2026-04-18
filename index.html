@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza Perfumes | Luxury Fragrance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #0a0a0a; color: #ffffff; }
+        .serif { font-family: 'Playfair Display', serif; }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .gold-gradient { background: linear-gradient(45deg, #d4af37, #f9e076); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body>
+
+    <nav class="fixed w-full z-50 glass py-4 px-8 flex justify-between items-center">
+        <h1 class="serif text-2xl font-bold tracking-widest gold-gradient">HAMZA PERFUMES</h1>
+        <div class="hidden md:flex space-x-8 text-sm uppercase tracking-widest">
+            <a href="#" class="hover:text-yellow-500 transition">Collections</a>
+            <a href="#" class="hover:text-yellow-500 transition">Best Sellers</a>
+            <a href="#" class="hover:text-yellow-500 transition">Contact</a>
+        </div>
+        <div class="flex items-center space-x-5">
+            <span>🛒 (0)</span>
+        </div>
+    </nav>
+
+    <section class="h-screen flex flex-col justify-center items-center text-center px-4" 
+             style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&q=80&w=1920'); background-size: cover; background-position: center;">
+        <h2 class="serif text-5xl md:text-7xl mb-4">Elevate Your Essence</h2>
+        <p class="text-gray-300 max-w-lg mb-8 tracking-wide">Discover the art of luxury perfumery. Handcrafted scents for those who command presence.</p>
+        <button class="bg-yellow-600 hover:bg-yellow-700 text-white px-10 py-4 uppercase tracking-widest transition">Shop Collection</button>
+    </section>
+
+    <section class="py-20 px-8 max-w-7xl mx-auto">
+        <h3 class="serif text-3xl mb-12 text-center">Featured Fragrances</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            
+            <div class="glass p-4 group cursor-pointer">
+                <div class="overflow-hidden mb-4">
+                    <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&q=80&w=600" alt="Oud Royal" class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+                </div>
+                <h4 class="text-xl font-semibold">Oud Royal Intense</h4>
+                <p class="text-yellow-500 mb-4">$120.00</p>
+                <button class="w-full border border-white/20 py-2 hover:bg-white hover:text-black transition uppercase text-xs tracking-widest">Add to Cart</button>
+            </div>
+
+            <div class="glass p-4 group cursor-pointer">
+                <div class="overflow-hidden mb-4">
+                    <img src="https://images.unsplash.com/photo-1557170334-a7c3c40d002d?auto=format&fit=crop&q=80&w=600" alt="Midnight Musk" class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+                </div>
+                <h4 class="text-xl font-semibold">Midnight Musk</h4>
+                <p class="text-yellow-500 mb-4">$95.00</p>
+                <button class="w-full border border-white/20 py-2 hover:bg-white hover:text-black transition uppercase text-xs tracking-widest">Add to Cart</button>
+            </div>
+
+            <div class="glass p-4 group cursor-pointer">
+                <div class="overflow-hidden mb-4">
+                    <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&q=80&w=600" alt="Ocean Breeze" class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+                </div>
+                <h4 class="text-xl font-semibold">Azure Ocean</h4>
+                <p class="text-yellow-500 mb-4">$85.00</p>
+                <button class="w-full border border-white/20 py-2 hover:bg-white hover:text-black transition uppercase text-xs tracking-widest">Add to Cart</button>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-black py-16 px-8 border-t border-white/10">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+                <h2 class="serif text-3xl gold-gradient mb-4">Hamza Perfumes</h2>
+                <p class="text-gray-500 mb-6">World class fragrances delivered to your doorstep.</p>
+                <div class="space-y-2 text-sm text-gray-400">
+                    <p>📧 hamxafeyax@yahoo.com</p>
+                    <p>📞 03235957001</p>
+                </div>
+            </div>
+            <div class="flex flex-col justify-end">
+                <p class="text-xs text-gray-600 tracking-widest">© 2026 HAMZA PERFUMES. ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
